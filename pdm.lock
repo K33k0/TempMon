@@ -1,0 +1,235 @@
+[[package]]
+name = "adafruit-blinka"
+version = "8.10.0"
+requires_python = ">=3.7.0"
+summary = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
+dependencies = [
+    "Adafruit-PlatformDetect>=3.13.0",
+    "Adafruit-PureIO>=1.1.7",
+    "adafruit-circuitpython-typing",
+    "pyftdi>=0.40.0",
+]
+
+[[package]]
+name = "adafruit-circuitpython-busdevice"
+version = "5.2.3"
+summary = "CircuitPython bus device classes to manage bus sharing."
+dependencies = [
+    "Adafruit-Blinka>=7.0.0",
+    "adafruit-circuitpython-typing",
+]
+
+[[package]]
+name = "adafruit-circuitpython-dht"
+version = "3.7.8"
+summary = "CircuitPython support for DHT11 and DHT22 type temperature/humidity devices"
+dependencies = [
+    "Adafruit-Blinka",
+]
+
+[[package]]
+name = "adafruit-circuitpython-requests"
+version = "1.12.11"
+summary = "A requests-like library for web interfacing"
+dependencies = [
+    "Adafruit-Blinka",
+]
+
+[[package]]
+name = "adafruit-circuitpython-typing"
+version = "1.8.3"
+summary = "Types needed for type annotation that are not in `typing`"
+dependencies = [
+    "Adafruit-Blinka",
+    "adafruit-circuitpython-busdevice",
+    "adafruit-circuitpython-requests",
+    "typing-extensions~=4.0",
+]
+
+[[package]]
+name = "adafruit-dht"
+version = "1.4.0"
+summary = "Library to get readings from the DHT11, DHT22, and AM2302 humidity and temperature sensors on a Raspberry Pi or Beaglebone Black."
+
+[[package]]
+name = "adafruit-platformdetect"
+version = "3.38.0"
+requires_python = ">=3.7.0"
+summary = "Platform detection for use by libraries like Adafruit-Blinka."
+
+[[package]]
+name = "adafruit-pureio"
+version = "1.1.9"
+requires_python = ">=3.5.0"
+summary = "Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules."
+
+[[package]]
+name = "certifi"
+version = "2022.12.7"
+requires_python = ">=3.6"
+summary = "Python package for providing Mozilla's CA Bundle."
+
+[[package]]
+name = "influxdb-client"
+version = "1.35.0"
+requires_python = ">=3.7"
+summary = "InfluxDB 2.0 Python client library"
+dependencies = [
+    "certifi>=14.05.14",
+    "python-dateutil>=2.5.3",
+    "reactivex>=4.0.4",
+    "setuptools>=21.0.0",
+    "urllib3>=1.26.0",
+]
+
+[[package]]
+name = "pyftdi"
+version = "0.54.0"
+requires_python = ">=3.7"
+summary = "FTDI device driver (pure Python)"
+dependencies = [
+    "pyserial>=3.0",
+    "pyusb!=1.2.0,>=1.0.0",
+]
+
+[[package]]
+name = "pyserial"
+version = "3.5"
+summary = "Python Serial Port Extension"
+
+[[package]]
+name = "python-dateutil"
+version = "2.8.2"
+requires_python = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+summary = "Extensions to the standard Python datetime module"
+dependencies = [
+    "six>=1.5",
+]
+
+[[package]]
+name = "python-dotenv"
+version = "0.21.0"
+requires_python = ">=3.7"
+summary = "Read key-value pairs from a .env file and set them as environment variables"
+
+[[package]]
+name = "pyusb"
+version = "1.2.1"
+requires_python = ">=3.6.0"
+summary = "Python USB access module"
+
+[[package]]
+name = "reactivex"
+version = "4.0.4"
+requires_python = ">=3.7,<4.0"
+summary = "ReactiveX (Rx) for Python"
+dependencies = [
+    "typing-extensions<5.0.0,>=4.1.1",
+]
+
+[[package]]
+name = "setuptools"
+version = "65.6.3"
+requires_python = ">=3.7"
+summary = "Easily download, build, install, upgrade, and uninstall Python packages"
+
+[[package]]
+name = "six"
+version = "1.16.0"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+summary = "Python 2 and 3 compatibility utilities"
+
+[[package]]
+name = "typing-extensions"
+version = "4.4.0"
+requires_python = ">=3.7"
+summary = "Backported and Experimental Type Hints for Python 3.7+"
+
+[[package]]
+name = "urllib3"
+version = "1.26.13"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
+summary = "HTTP library with thread-safe connection pooling, file post, and more."
+
+[metadata]
+lock_version = "4.1"
+content_hash = "sha256:ae3a5fee7678ac2727de0fa82e055abce9ec87c6fac49a84296f346db59fa5da"
+
+[metadata.files]
+"adafruit-blinka 8.10.0" = [
+    {url = "https://files.pythonhosted.org/packages/60/29/5940bf83ed5f548aa7e792a45d9c6bc1ba50ea527f0e43f02fa72369b0e7/Adafruit-Blinka-8.10.0.tar.gz", hash = "sha256:2a2269c7ee9c975f768baca5e10c512a65e0ac98977edbed3f8f6d5a3a0dc411"},
+    {url = "https://files.pythonhosted.org/packages/7e/f8/5415ff98d096b609ce1265a0975b08c0dd50dfb2a5d87da35ff6fa8764f7/Adafruit_Blinka-8.10.0-py3-none-any.whl", hash = "sha256:4b290aca7312cf4342eef225e857b58118b547b30da3561ee128165930a7b03e"},
+]
+"adafruit-circuitpython-busdevice 5.2.3" = [
+    {url = "https://files.pythonhosted.org/packages/6c/52/815bdbfb4b1fa4103b90cd0cf5e0101dc06d396e0c106eadd6bfbb2f057f/adafruit-circuitpython-busdevice-5.2.3.tar.gz", hash = "sha256:faa572b613a0732de938ed008402dfb105d91adb5d0096bf2709f46669a94885"},
+    {url = "https://files.pythonhosted.org/packages/c1/9d/e3e61ea5b2bc609a5a1c4c1da3830c42062c1743f78abd6e6cd827dbcbea/adafruit_circuitpython_busdevice-5.2.3-py3-none-any.whl", hash = "sha256:062d010b29ba814c764fbe3a693b7ebbd329b70a9fd5ebde40e0faa020e5fae7"},
+]
+"adafruit-circuitpython-dht 3.7.8" = [
+    {url = "https://files.pythonhosted.org/packages/17/7f/3afbcfafbd0ae116023d31f5f7cd8538336feb3cf71b71b85ea62d7019ee/adafruit_circuitpython_dht-3.7.8-py3-none-any.whl", hash = "sha256:b4a4089d6b6453584a123af8e6aa44be5e04b83a8437a582707ef8ff8461abfb"},
+    {url = "https://files.pythonhosted.org/packages/56/47/8a2b7e2ab17e1d5b52da256c27859dcddf26442fc6ad6dfbc375cec172ba/adafruit-circuitpython-dht-3.7.8.tar.gz", hash = "sha256:52320eae89494979fe3ca37903657dc59c55c95720b77e93c707c049db7ccf04"},
+]
+"adafruit-circuitpython-requests 1.12.11" = [
+    {url = "https://files.pythonhosted.org/packages/2e/7d/f68dd5e7503bff947c2edfddb0b9d9afef626d0bd5bbd8169e33d986aa45/adafruit-circuitpython-requests-1.12.11.tar.gz", hash = "sha256:48b69b11103ac9786d76dcc102085286b287d8879aaaaccaf4bec76bd3ca909d"},
+    {url = "https://files.pythonhosted.org/packages/55/07/31fa22c385deec1f49ae8f18250bc9fce28fc547695b597a9d26f910858b/adafruit_circuitpython_requests-1.12.11-py3-none-any.whl", hash = "sha256:bba406ba713852a23fe3e2cd592de705f39fa32e8e527653798591a744b0481d"},
+]
+"adafruit-circuitpython-typing 1.8.3" = [
+    {url = "https://files.pythonhosted.org/packages/10/23/d0046c67a2789c7e189deef2fcbadfafc83826be36b7bb23f80eca62b158/adafruit_circuitpython_typing-1.8.3-py3-none-any.whl", hash = "sha256:31d0b597235fb8a56e875f4588800b4b2ac59c00fd554540cbe7759586aa0622"},
+    {url = "https://files.pythonhosted.org/packages/8a/f6/edbca0fe12e8a7bfa6026f420b09e6e541662040e62680eb98493803c87a/adafruit-circuitpython-typing-1.8.3.tar.gz", hash = "sha256:6c1c2db749a7daa1528548cb899397bf4793895c80ffe2a7ce0922ad3aeabf01"},
+]
+"adafruit-dht 1.4.0" = [
+    {url = "https://files.pythonhosted.org/packages/ff/24/b999708edffbc3d30763acdf07dc7a1666a1542795f3d2b80d6ef2590c0c/Adafruit_DHT-1.4.0.tar.gz", hash = "sha256:e927f2232eff5335cb9d8a2cca6dcad4625e61f205b12e31ef04198ea6dec830"},
+]
+"adafruit-platformdetect 3.38.0" = [
+    {url = "https://files.pythonhosted.org/packages/24/d4/a014cb705b3c182b18499f8dad52afed7e9a61099d44340ca0f793869d6c/Adafruit-PlatformDetect-3.38.0.tar.gz", hash = "sha256:5129ce7ff9f0b80c99a6fcbf717a50b6458a5cf2aed218f51c5c2896ba5e7103"},
+]
+"adafruit-pureio 1.1.9" = [
+    {url = "https://files.pythonhosted.org/packages/df/ca/9162d4648669d12af16d5a66d808bdef6967eb684cbed9b1a3ebc19b361a/Adafruit_PureIO-1.1.9.tar.gz", hash = "sha256:2caf22fb07c7f771d83267f331a76cde314723f884a9570ea6f768730c87a879"},
+]
+"certifi 2022.12.7" = [
+    {url = "https://files.pythonhosted.org/packages/37/f7/2b1b0ec44fdc30a3d31dfebe52226be9ddc40cd6c0f34ffc8923ba423b69/certifi-2022.12.7.tar.gz", hash = "sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"},
+    {url = "https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl", hash = "sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"},
+]
+"influxdb-client 1.35.0" = [
+    {url = "https://files.pythonhosted.org/packages/50/e1/b39818533faee47144c867b7d2342f5d81fc6055a13966baa9193eb191a9/influxdb_client-1.35.0.tar.gz", hash = "sha256:eaef9fb9adcdc9868b50770602bf06c662e9cf4a390d09f14c8e888f3947adbb"},
+    {url = "https://files.pythonhosted.org/packages/79/48/677dc8eb5c652ce58758b71c84c2e993167ac460276a632a573cd75ce842/influxdb_client-1.35.0-py3-none-any.whl", hash = "sha256:a4c1751337bbfc0b0b0b2fb0fb285e66127bca21ae47a6b86b0bcf4fca05ee70"},
+]
+"pyftdi 0.54.0" = [
+    {url = "https://files.pythonhosted.org/packages/17/ce/a97811c3e7e2d5a9520b88801dcc70ac1b553ed31b9819b2fce14ffa9aa3/pyftdi-0.54.0-py3-none-any.whl", hash = "sha256:112f16ee5b2a2becb8f8df9dd40b3bba007589f34e7613024122d94bd56eb7d7"},
+    {url = "https://files.pythonhosted.org/packages/49/a3/6cd09c0493662b285b2ba87a08b1378a5b13e5cab44eb6a3f740c801c804/pyftdi-0.54.0.tar.gz", hash = "sha256:8df9af22077d17533d2f95b508b1d87959877627ea5dc2369056e90a3b5a232d"},
+]
+"pyserial 3.5" = [
+    {url = "https://files.pythonhosted.org/packages/07/bc/587a445451b253b285629263eb51c2d8e9bcea4fc97826266d186f96f558/pyserial-3.5-py2.py3-none-any.whl", hash = "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"},
+    {url = "https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz", hash = "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"},
+]
+"python-dateutil 2.8.2" = [
+    {url = "https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"},
+    {url = "https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
+]
+"python-dotenv 0.21.0" = [
+    {url = "https://files.pythonhosted.org/packages/2d/10/ff4f2f5b2a420fd09e1331d63cc87cf4367c5745c0a4ce99cea92b1cbacb/python_dotenv-0.21.0-py3-none-any.whl", hash = "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5"},
+    {url = "https://files.pythonhosted.org/packages/87/8d/ab7352188f605e3f663f34692b2ed7457da5985857e9e4c2335cd12fb3c9/python-dotenv-0.21.0.tar.gz", hash = "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"},
+]
+"pyusb 1.2.1" = [
+    {url = "https://files.pythonhosted.org/packages/15/a8/4982498b2ab44d1fcd5c49f07ea3795eab01601dc143b009d333fcace3b9/pyusb-1.2.1-py3-none-any.whl", hash = "sha256:2b4c7cb86dbadf044dfb9d3a4ff69fd217013dbe78a792177a3feb172449ea36"},
+    {url = "https://files.pythonhosted.org/packages/d9/6e/433a5614132576289b8643fe598dd5d51b16e130fd591564be952e15bb45/pyusb-1.2.1.tar.gz", hash = "sha256:a4cc7404a203144754164b8b40994e2849fde1cfff06b08492f12fff9d9de7b9"},
+]
+"reactivex 4.0.4" = [
+    {url = "https://files.pythonhosted.org/packages/69/3f/2ed8c1b8fe3fc2ed816ba40554ef703aad8c51700e2606c139fcf9b7f791/reactivex-4.0.4-py3-none-any.whl", hash = "sha256:0004796c420bd9e68aad8e65627d85a8e13f293de76656165dffbcb3a0e3fb6a"},
+    {url = "https://files.pythonhosted.org/packages/ef/63/f776322df4d7b456446eff78c4e64f14c3c26d57d46b4e06c18807d5d99c/reactivex-4.0.4.tar.gz", hash = "sha256:e912e6591022ab9176df8348a653fe8c8fa7a301f26f9931c9d8c78a650e04e8"},
+]
+"setuptools 65.6.3" = [
+    {url = "https://files.pythonhosted.org/packages/b6/21/cb9a8d0b2c8597c83fce8e9c02884bce3d4951e41e807fc35791c6b23d9a/setuptools-65.6.3.tar.gz", hash = "sha256:a7620757bf984b58deaf32fc8a4577a9bbc0850cf92c20e1ce41c38c19e5fb75"},
+    {url = "https://files.pythonhosted.org/packages/ef/e3/29d6e1a07e8d90ace4a522d9689d03e833b67b50d1588e693eec15f26251/setuptools-65.6.3-py3-none-any.whl", hash = "sha256:57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54"},
+]
+"six 1.16.0" = [
+    {url = "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+    {url = "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+]
+"typing-extensions 4.4.0" = [
+    {url = "https://files.pythonhosted.org/packages/0b/8e/f1a0a5a76cfef77e1eb6004cb49e5f8d72634da638420b9ea492ce8305e8/typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
+    {url = "https://files.pythonhosted.org/packages/e3/a7/8f4e456ef0adac43f452efc2d0e4b242ab831297f1bac60ac815d37eb9cf/typing_extensions-4.4.0.tar.gz", hash = "sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"},
+]
+"urllib3 1.26.13" = [
+    {url = "https://files.pythonhosted.org/packages/65/0c/cc6644eaa594585e5875f46f3c83ee8762b647b51fc5b0fb253a242df2dc/urllib3-1.26.13-py2.py3-none-any.whl", hash = "sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc"},
+    {url = "https://files.pythonhosted.org/packages/c2/51/32da03cf19d17d46cce5c731967bf58de9bd71db3a379932f53b094deda4/urllib3-1.26.13.tar.gz", hash = "sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8"},
+]

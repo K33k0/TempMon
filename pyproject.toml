@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Kieran Wynne", email = "keewynne90@gmail.com"},
+]
+dependencies = [
+    "adafruit-circuitpython-dht>=3.7.8",
+    "influxdb-client>=1.35.0",
+    "python-dotenv>=0.21.0",
+    "Adafruit-DHT>=1.4.0",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
